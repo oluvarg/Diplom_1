@@ -1,9 +1,16 @@
 from typing import List
 
+<<<<<<< HEAD
 from praktikum.bun import Bun
 from praktikum.burger import Burger
 from praktikum.database import Database
 from praktikum.ingredient import Ingredient
+=======
+from praktikum.praktikum import Bun
+from praktikum.praktikum import Burger
+from praktikum.praktikum import Database
+from praktikum.praktikum import Ingredient
+>>>>>>> 2e51afc (Diplom_1)
 
 
 def main():

@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+import pytest
+
+>>>>>>> 2e51afc (Diplom_1)
 from data import Data
 from praktikum.burger import Burger
 
