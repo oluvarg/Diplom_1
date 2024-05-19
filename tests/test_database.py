@@ -1,4 +1,5 @@
 import pytest
+
 from praktikum.database import Database
 
 

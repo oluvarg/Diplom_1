@@ -1,4 +1,5 @@
 class Data:
+
     """ data bun """
     BUN_NAME = 'Флюоресцентная булка R2-D3', 'Краторная булка N-200i'
     BUN_PRICE = 988, 1255

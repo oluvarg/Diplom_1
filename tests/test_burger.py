@@ -1,5 +1,3 @@
-import pytest
-
 from data import Data
 from praktikum.burger import Burger
 
