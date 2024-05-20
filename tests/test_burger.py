@@ -35,3 +35,15 @@ class TestBurger:
         burger.add_ingredient(mock_ingredient)
         burger.set_buns(mock_bun)
         assert burger.get_receipt() == Data.EXPECTED_RESULT, 'Ответ не соответствует ожидаемому'
+        
+    def test_add_ingredient(self, mock_ingredient):
+        burger = Burger()
+        mock_ingredient.get_name.return_value = Data.ING_NAME
+        mock_ingredient.get_price.return_value = Data.ING_PRICE
+        mock_ingredient.get_type.return_value = Data.ING_TYPE
+        burger.add_ingredient(mock_ingredient)
+        assert (burger.ingredients[0].get_price() == Data.ING_PRICE
+                and
+                burger.ingredients[0].get_name() == Data.ING_NAME
+                and
+                burger.ingredients[0].get_type() == Data.ING_TYPE)
