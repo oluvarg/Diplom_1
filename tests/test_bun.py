@@ -14,6 +14,6 @@ class TestBun:
                               (Data.BUN_NAME[1], Data.BUN_PRICE[1])])
     def test_get_price_result(self, name, price):
         bun = Bun(name, price)
-        result = [bun.get_name(), bun.get_price()]
+        result = [name, bun.get_price()]
         assert result == [name, price],  'Ответ не соответствует ожидаемому'
 
